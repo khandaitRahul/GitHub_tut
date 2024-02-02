@@ -1,0 +1,239 @@
+ 1  git --version
+    2  git config
+    3  ls
+    4  cd Documents/
+    5  mkdir test
+    6  cd test/
+    7  clear
+    8  exit
+    9  ls
+   10  cd c
+   11  cd OneDrive/
+   12  ls
+   13  cd ../
+   14  ls
+   15  cd ../
+   16  ls
+   17  cd khand/
+   18  ls
+   19  ls -a
+   20  cd ../
+   21  cd  ./
+   22  cd ../
+   23  ls
+   24  ls -a
+   25  cls
+   26  clear
+   27  ls
+   28  cd Work/
+   29  ls
+   30  ls
+   31  ls -a
+   32  cd users
+   33  cd ../
+   34  cd Users/
+   35  ls
+   36  cd khand/
+   37  ls
+   38  cd OneDrive/
+   39  ls
+   40  cd Desktop
+   41  ls
+   42  clear
+   43  ls
+   44  cd EXCELR/
+   45  ls
+   46  mkdir "GIT"
+   47  ls
+   48  cd GIT/
+   49  pwd
+   50  cd ../
+   51  ren GIT GITexample
+   52  rename GIT GITexample
+   53  ren GIT gitex
+   54  ls
+   55  rename git gitexample
+   56  git mv GIT GIT example
+   57  git mv GIT GITexample
+   58  clear
+   59  rm GIT
+   60  rmdir GIT
+   61  ls
+   62  mkdir GITexample
+   63  ls
+   64  rendir GITexample GIT
+   65  cd GITexample/
+   66  mkdir subfolder
+   67  cd subfolder/
+   68  clear
+   69  ls
+   70  clear
+   71  pwd
+   72  touch sample.txt
+   73  ls
+   74  touch sample2.docx
+   75  ls
+   76  touch sample1.xls
+   77  ls
+   78  touch file1.txt file2.txt file3.csv file4.xlsx
+   79  ls
+   80  rm sample.txt sample1.xls
+   81  ls
+   82  rm *.txt
+   83  ls
+   84  touch file1.csv
+   85  ls
+   86  clear
+   87  ls
+   88  rm *.csv *.xlxl *.docx
+   89  rm *.csv *.xlsx *.docx
+   90  ls
+   91  clear
+   92  touch file1.txt file2.csv file3.xlsx file4.docx
+   93  ls
+   94  mkdir dummy
+   95  ls
+   96  rmdir dummy
+   97  ls
+   98  cd ../
+   99  rmdir subfolder/
+  100  ls
+  101  cd subfolder/
+  102  rm *.txt *.csv *.xlsx *.docx
+  103  ls
+  104  cd ../
+  105  rmdir subfolder/
+  106  ls
+  107  clear
+  108  pwd
+  109  mkdir subfolder
+  110  touch file1.txt file2.txt file3.csv file4.csv file5.xlsx file6.xlsx file7.docx file8.docx
+  111  ls
+  112  ls
+  113  clear
+  114  pwd
+  115  cd subfolder/
+  116  ls
+  117  cd ../
+  118  ls
+  119  mkdir dummy
+  120  ls
+  121  cd dummy/
+  122  touch file1.txt file2.txt file3.txt file4.txt
+  123  ls
+  124  cd ../
+  125  ls
+  126  rmdir dummy/
+  127  clear
+  128  pwd
+  129  ls
+  130  rmdir dummy/
+  131  rmdir -f dummy/
+  132  rmdir -rf dummy/
+  133  rm -rf dummy/
+  134  ls
+  135  help
+  136  clear
+  137  hstory
+  138  clear
+  139  history
+  140  clear
+  141  pwd
+  142  cd subfolder/
+  143  ls
+  144  touch flower.txt
+  145  ls
+  146  vi flower.txt
+  147  cat flower.txt
+  148  vi file1.txt
+  149  cat file1.txt
+  150  ls -l
+  151  vi flower.txt
+  152  cat flower.txt `
+  153  clear
+  154  fl
+  155  ls
+  156  cd OneDrive/Desktop/EXCELR/GITexample/subfolder/
+  157  ls
+  158  clear
+  159  pwd
+  160  l
+  161  ls
+  162  cat flower.txt
+  163  clear
+  164  ls
+  165  cd OneDrive/Desktop/EXCELR/
+  166  ls
+  167  cd GITexample/
+  168  ls
+  169  cd subfolder/
+  170  clear
+  171  pwd
+  172  ls
+  173  cat file1.txt
+  174  mv file1.txt file3.csv
+  175  ls
+  176  cat file3.csv
+  177  cat file1.txt
+  178  clear
+  179  ls
+  180  touch flower2.csv
+  181  cp flower.txt flower2.csv
+  182  cat flower2.csv
+  183  cat flower.txt
+  184  rm flower2.csv
+  185  ls
+  186  touch fruits.csv
+  187  ls
+  188  clear
+  189  pwd
+  190  ls
+  191  cp flower.txt fruits.csv
+  192  cat fruits.csv
+  193  vi fruits.csv
+  194  cat fruits.csv
+  195  cd
+  196  pwd
+  197  clear
+  198  ls
+  199  clear
+  200  cd OneDrive/Desktop/EXCELR/
+  201  cd GITexample/
+  202  mkdir gitsample
+  203  ls
+  204  clear
+  205  cd gitsample/
+  206  git init
+  207  ls -a
+  208  cd ../
+  209  ls -a
+  210  cd gitsample/
+  211  clear
+  212  ls -a
+  213  ls
+  214  cd .git
+  215  ls
+  216  cd objects/
+  217  ls
+  218  cd info
+  219  ls
+  220  cd ../
+  221  cd ../
+  222  cd hooks
+  223  ls
+  224  clear
+  225  ls
+  226  cd OneDrive/Desktop/EXCELR/GITexample/gitsample/
+  227  ls
+  228  ls -a
+  229  git status
+  230  git add page.html
+  231  git status
+  232  clear
+  233  git status
+  234  git commint -m "page code add"
+  235  git commit -m "page code add"
+  236  history
+  237  clear
+  238  git status
+  239  history
