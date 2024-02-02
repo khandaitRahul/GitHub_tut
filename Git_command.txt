@@ -237,3 +237,41 @@
   237  clear
   238  git status
   239  history
+  240  ls
+  241  clear
+  242  git status
+  243  git add .
+  244  git status
+  245  git restore --staged .
+  246  git status
+  247  clear
+  248  ls
+  249  cd ../
+  250  ls
+  251  cd HRMS_application/
+  252  git init
+  253  git config --global user.name "rahul khandait"
+  254  git config --global user.email "khandaitrahul5319@gmail.com"
+  255  git config --list
+  256  git status
+  257  git add .
+  258  git status
+  259  cd .git
+  260  ls -l
+  261  cd ../
+  262  git commit -m "booking,contact,page_file_committed"
+  263  git status
+  264  git add .
+  265  git commit -m "page,contact_file_committed"
+  266  git log
+  267  cd .git
+  268  ls
+  269  cd objects/
+  270  ls
+  271  cd ../
+  272  git status
+  273  cd ../
+  274  git status
+  275  git remote add origin https://github.com/khandaitRahul/GitHub_tut.git
+  276  git remote add origin https://github.com/khandaitRahul/GitHub_tut.git
+  277  git push -u origin master
