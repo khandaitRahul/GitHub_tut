@@ -275,6 +275,7 @@
   275  git remote add origin https://github.com/khandaitRahul/GitHub_tut.git
   276  git remote add origin https://github.com/khandaitRahul/GitHub_tut.git
   277  git push -u origin master
+<<<<<<< HEAD
   278  history
   279  ls
   280  git pull origin master
@@ -310,3 +311,5 @@
   310  git push -u origin rahul
   311  git status
   312  history
+=======
+>>>>>>> rahul_new
