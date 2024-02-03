@@ -1,0 +1,216 @@
+$ history
+    1  git --version                                                            # to check the version of git
+
+    2  git config                                                               # to config the git in new repo
+    
+    3  ls                                                                       # list the all files, folder in repo
+    
+    4  cd Documents/                                                            # change directories(folder)
+    
+    5  mkdir test                                                               # make directories (create new folder)
+    
+    7  clear                                                                    # clear the terminal
+    
+    8  exit                                                                     # exit the terminal
+   
+   13  cd ../                                                                   # to go one directories(folder) backward
+   
+   19  ls -a                                                                    # list all hidden files
+   
+   49  pwd                                                                      # present working directories
+   
+   60  rmdir GIT                                                                # remove the dir only if it is empty
+   
+   71  pwd                                                                      # present working directory
+   
+   72  touch sample.txt                                                         # create file
+   
+   78  touch file1.txt file2.txt file3.csv file4.xlsx                           # create multiple files
+   
+   80  rm sample.txt sample1.xls                                                # remove multiple files at once
+   
+   82  rm *.txt                                                                 # remove all files with extension(.txt)
+   
+   88  rm *.csv *.xlxl *.docx                                                   # remove all files with multiple extension(.csv, .txt, .xlsx)
+   
+   133  rm -rf dummy                                                            # remove directory with multiple files in it(-rf=recurvise force)
+   
+   135  help                                                                    # all the command of git
+ 
+   139  history                                                                 # to see all the git command excuted in terminal
+   
+   146  vi flower.txt                                                           # to edit the file in VI-editor (i=insert, esc+:+wq=to write&quit the code)
+  
+   147  cat flower.txt                                                          # open the file in git terminal
+
+   150  ls -l                                                                   # list all the file with all the info
+
+   174  mv file1.txt file3.csv                                                  # rename the file
+
+   181  cp flower.txt flower2.csv                                               # copy all the content of one file another file
+  
+   206  git init                                                                # intialize the git in pwd
+
+   207  ls -la                                                                  # list all the info of all the files & hidden files the pwd                
+ 
+   229  git status                                                              # check the status of any file to be add, commit, push
+
+   230  git add page.html                                                       # to add one file to commit
+
+   234  git commint -m "page code add"                                          # to commit the changes after we add
+
+   243  git add .                                                               # to add all the file to be committed
+   
+   245  git restore --staged .                                                  # to remove all the files from commit
+ 
+   252  git init                                                                # intialize GIT in project directory
+
+   253  git config --global user.name "rahul khandait"                          # config ur username in github a/c
+
+   254  git config --global user.email "khandaitrahul5319@gmail.com"            # config ur email in github a/c
+
+   255  git config --list                                                       # configure list of github
+
+   276  git remote add origin https://github.com/khandaitRahul/GitHub_tut.git   # add the link of remote repo in github a/c
+ 
+   277  git push -u origin master                                               # push the code from localPC to remote repo(master branch) in github a/c
+
+   280  git pull origin master                                                  # pull the updated code from remote repo(master branch)
+
+   282  git log                                                                 # check the log/info of every push/pull/merge from repo(master)
+
+   287  git branch rahul                                                        # create another branch from remote repo(master branch)
+
+   296  git checkout rahul                                                      # to dive into the rahul_branch from master
+    297  git status
+    298  git add .
+    299  git status
+    300  git commit -m "offers_added"
+    301  git status
+    302  git log
+    303  ls
+    304  git status
+    305  git add .
+    306  git status
+    307  git commit -m "cart added"
+    308  git status
+    309  git log
+   310  git push -u origin rahul                                            # to push the code from localPC to repo(rahul_branch)
+    311  git status
+    315  clear
+   320  git branch                                                          # check what is the current branch in localPC 
+
+   321  git checkout master                                                 # to dive into master branch from rahul_branch
+    322  git status
+    323  git add .
+    324  git commit -m "git_command"
+    325  git status
+    326  git push -u origin rahul
+    327  git status
+    328  clear
+    329  git branch
+    330  git checkout master
+   
+   331  code .                                                              # open VS-code editor
+    332  git status
+    333  ls
+    334  cat logout.html
+
+   335  git diff logout.html                                                # to see the diff. b/w previous code & present code
+    336  git status
+    339  git add .
+    340  git commit -m "logout page"
+    341  git status
+    342  git push -u origin master
+    343  git status
+    344  git status
+    345  git diff logout.html
+    346  git add .
+    347  git commit -m "logout page updated"
+    348  git diff
+    349  git diff logout.html
+    350  git add .
+    351  git diff
+  
+   352  git diff --staged                                                   # to see the diffb/w previous & present code after it committed
+
+   353  git --help                                                          # show necessary command of GIT
+    354  git status
+  
+   355  git restore --staged logout.html                                    # to remove any file from commit stage
+    356  git status
+    357  git diff logout.html
+    358  git add .
+    359  git status
+    360  git commit -m "logout updated"
+    361  git status
+    362  git push -u origin master
+    364  git checkout rahul
+    366  git checkout master
+    367  git branch
+    369  git branch rahul_new
+    370  git checkout rahul_new
+    371  touch chatbox.html
+    372  code .
+    373  git status
+    374  git add .
+    375  git commit -m "chatbox added"
+    376  git log
+    377  git status
+    379  git checkout rahul
+  
+   381  git merge rahul rahul_new                                       # merge two branch(rahul, rahul_new) originate from master
+    382  git status
+    383  git checkout rahul
+    384  git add .
+    385  git status
+    397  git commit -m "about_us added"
+    398  git checkout rahul_new
+    400  git merge rahul_new rahul
+    402  git checkout rahul
+    404  git log
+    405  git checkout master
+    406  git checkout rahul
+    407  git checkout master
+    
+   408  git merge master rahul                                         # merge rahul branch to master branch
+    409  ls
+    410  git checkout rahul
+    411  git status
+    412  git push -u origin rahul
+    413  git status
+    414  git checkout rahul_new
+    415  git status
+    416  git checkout master
+    417  git status
+    418  git merge master rahul
+    419  git merge master rahul_new
+    420  git checkout rahul_new
+  
+   421  git branch -m rahul_new rahul_khandait                         # rename the existing branch
+    422  git checkout master
+    423  git status
+    425  git checkout rahul_khandait
+    426  git merge rahul_khandait master
+    427  git checkout master
+    428  git push -u origin master
+    430  git merge rahul_khandait master
+    432  git checkout rahul_khandait
+    433  git push -u origin master
+    434  touch login.html
+    435  code .
+    436  git add .
+    437  git status
+    438  git commit -m "login added"
+    439  git push -u origin rahul_khandait
+    440  git status
+    441  git checkout master
+    442  git merge master rahul_khandait
+    443  git status
+    444  git push -u origin master
+    445  git status
+    446  clear
+    505  ls
+    506  ls -la
+    507  clear
+    508  history
