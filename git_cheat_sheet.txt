@@ -214,3 +214,47 @@ $ history
     506  ls -la
     507  clear
     508  history
+    509  git branch
+    510  git switch rahul
+   
+   511  git remote -v                                               # to see the name(origin) of remote repo
+    
+    512  git pull origin master                                     # it do both fetch and merge the data from remote repo
+
+   513  git fetch --all                                             # it fetch all the data from remote repo to stagging
+    514  git restore
+    515  git restore --staged
+    516  git switch master
+    518  git fetch --all
+    519  git status
+    
+   520  git merge master origin/remote_branch                       # merge the fetch data with localPC
+    521  ls
+    522  git switch remote_branch
+    523  git switch master
+    524  git merge master remote_branch
+    525  git push -u origin master
+   
+   526  git log --oneline                                           # give all the log in oneline
+   
+   527  cat .git/HEAD                                               # current branch u r are working in
+    528  git branch
+    529  git switch rahul
+    530  cat .git/HEAD
+    531  git switch master
+    532  touch admin.js track_page.js
+    533  git status
+    534  git add .
+    535  git status
+    536  git commit -m "admin page"
+    537  git log --oneline
+  
+   538  git reset b3e70d9                                           # delete till the required file using logID 
+    539  git status
+    540  git add .
+    541  git commit -m "admin,track page"
+    542  git status
+    543  git push -u origin master
+    544  git status
+    545  clear
+    546-536  history
